@@ -15,7 +15,7 @@ img {
    position: absolute;
    width: 100%;
    top: 0;
-   padding-top: 100px;
+   padding-top: 140px;
 }
 
 .logo {
@@ -112,6 +112,7 @@ h4, h6, .date {
    .head-desc {
    }
    .logo {
+      font-size: 35px;
    }
    .desc, .date, .head-desc {
    }
@@ -121,32 +122,33 @@ h4, h6, .date {
 
 @media screen and (min-width: 768px) {
    body {
-      font-size: 16px;
+      font-size: 20px;
    }
    .head-desc {
    }
    .logo {
+      font-size: 60px;
+      padding-top: 100px;
    }
 
    .desc, .date {
+      font-size: 22px;
    }
-
-}
-
-@media screen and (min-width: 992px) {
-      body {
-      font-size: 16px;
-   }
-   .head-desc {
-   }
-   .logo {
-   }
-
-   .desc, .date {
-   }
-
 }
 
 @media screen and (min-width: 1200px) {
+   body {
+      font-size: 25px;
+   }
+   .head-desc {
+   }
+   .logo {
+      font-size: 70px;
+      padding-top: 190px;
+   }
+
+   .desc, .date {
+      font-size: 28px;
+   }
 }
 
